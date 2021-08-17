@@ -1,0 +1,30 @@
+mes = gets.chomp
+
+case mes
+    when "janeiro"
+        puts "tem 31 dias"
+    when "fevereiro"
+        puts "tem 28 dias ou 29 dias"
+    when "marco"
+        puts "tem 31 dias"
+    when "abril"
+        puts "tem 30 dias"
+    when "maio"
+        puts "tem 31 dias"
+    when "junho"
+        puts "tem 30 dias"
+    when "julho"
+        puts "tem 31 dias"
+    when "agosto"
+        puts "tem 31 dias"
+    when "setembro"
+        puts "tem 30 dias"
+    when "outubro"
+        puts "tem 31 dias"
+    when "novembro"
+        puts "tem 30 dias"
+    when "dezembro"
+        puts "tem 31 dias"
+    else
+        puts "que mes é?"
+end
